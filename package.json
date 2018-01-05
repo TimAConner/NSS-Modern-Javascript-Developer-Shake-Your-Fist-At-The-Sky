@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/TimAConner/NSS-Modern-Javascript-Developer-Shake-Your-Fist-At-The-Sky#readme",
   "dependencies": {
+    "foaas-client": "^0.1.1",
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",
     "grunt-contrib-jshint": "^1.1.0",
