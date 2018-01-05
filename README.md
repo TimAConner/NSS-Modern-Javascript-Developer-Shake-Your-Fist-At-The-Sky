@@ -10,7 +10,7 @@ This was Javascript practice done while attending the [Nashville Software School
 - [ ] Accept two dates from the user (year, month, day) as a search parameter.
 - [x] Use the NASA API (https://api.nasa.gov/api.html#NeoWS) to make an ajax call that will gather data about what objects will be close to our planet in the timeframe specified by the user’s dates.
 - [x] Using the data you get back from NASA (promises!), use FOAAS to tell three of those asteroids to fuck off, by name.  http://www.foaas.com/
-- [ ] You can use whichever of the foaas message types you like.
+- [x] You can use whichever of the foaas message types you like.
 - [ ] Print these sky-fist-shaking statements to the DOM
  
 ### Bonus: 
