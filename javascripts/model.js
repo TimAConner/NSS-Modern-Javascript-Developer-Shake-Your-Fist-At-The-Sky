@@ -2,6 +2,17 @@
 
 const $ = require("jquery");
 
+
+const fetchApiKey = () => {
+    return new Promise(function(resolve) {
+        $.ajax({
+            url: 'javascripts/apiKey.json'
+        }).done((data) => {
+            resolve(data.key);
+        });
+    });
+};
+
 module.exports.fetchSpaceObjects = (startDate, endDate) => {
     return new Promise(function(resolve) {
         fetchApiKey().then((key) => {
@@ -14,12 +25,14 @@ module.exports.fetchSpaceObjects = (startDate, endDate) => {
     });
 };
 
-const fetchApiKey = () => {
+module.exports.fetchFuckingString = (asteroidToFuck) =>  {
     return new Promise(function(resolve) {
         $.ajax({
-            url: 'javascripts/apiKey.json'
-        }).done((data) => {
-            resolve(data.key);
+            url: `http://www.foaas.com/donut/${asteroidToFuck}/Cohort%2023`,
+            dataType : "json",
+            contentType: "application/json; charset=utf-8"
+        }).done((fuckingPhrase) => {
+            resolve(JSON.stringify(fuckingPhrase));
         });
     });
 };
