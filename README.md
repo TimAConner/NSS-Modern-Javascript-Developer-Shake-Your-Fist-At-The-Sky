@@ -3,6 +3,16 @@
 ## Motivation
 This was Javascript practice done while attending the [Nashville Software School](http://nashvillesoftwareschool.com/).
 
+## How to Contribute
+1. npm init -y
+1. npm install
+1. Add apiKey.json in javascripts folder.
+```
+{
+    "key": "thisWouldBeTheKeyString"
+}
+```
+1. Run grunt
 ## Synopsis
 ### Shake your fist at the sky
 ####  Goal: Practice jQuery, Promises, and optionally Handlebars
