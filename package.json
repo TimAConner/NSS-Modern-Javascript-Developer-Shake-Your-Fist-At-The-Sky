@@ -1,0 +1,30 @@
+{
+  "name": "NSS-Modern-Javascript-Developer-Shake-Your-Fist-At-The-Sky",
+  "version": "1.0.0",
+  "description": "This was Javascript practice done while attending the [Nashville Software School](http://nashvillesoftwareschool.com/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimAConner/NSS-Modern-Javascript-Developer-Shake-Your-Fist-At-The-Sky.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimAConner/NSS-Modern-Javascript-Developer-Shake-Your-Fist-At-The-Sky/issues"
+  },
+  "homepage": "https://github.com/TimAConner/NSS-Modern-Javascript-Developer-Shake-Your-Fist-At-The-Sky#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "handlebars": "^4.0.10",
+    "hbsfy": "^2.7.0",
+    "jquery": "^3.2.1",
+    "matchdep": "^1.0.1"
+  }
+}
