@@ -14,6 +14,6 @@ This was Javascript practice done while attending the [Nashville Software School
 - [ ] Print these sky-fist-shaking statements to the DOM
  
 ### Bonus: 
-- [ ] Only tell those asteroids that are “potentially hazardous” to fuck off.
+- [x] Only tell those asteroids that are “potentially hazardous” to fuck off.
 - [ ] Use different messages from foaas for the different asteroids.
 - [ ] Use Handlebars to print your three messages to the DOM
