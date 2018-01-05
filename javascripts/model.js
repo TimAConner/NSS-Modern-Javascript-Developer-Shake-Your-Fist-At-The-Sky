@@ -32,7 +32,7 @@ module.exports.fetchFuckingString = (asteroidToFuck) =>  {
             dataType : "json",
             contentType: "application/json; charset=utf-8"
         }).done((fuckingPhrase) => {
-            resolve(JSON.stringify(fuckingPhrase));
+            resolve(fuckingPhrase);
         });
     });
 };
